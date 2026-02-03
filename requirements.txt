@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+matplotlib
+tiktoken
+sacrebleu
+torch
+transformers
+
+# Optional (only if you use scispaCy-based English medical entity detection)
+spacy
+scispacy
+# You must separately install a scispaCy model, e.g.:
+# python -m spacy download en_core_sci_sm
+# or use pip install for scispaCy released models

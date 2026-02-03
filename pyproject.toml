@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthnote-eval"
+version = "0.1.0"
+description = "Evaluation metrics for synthetic clinical notes (surface, diversity, distribution, semantics)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "matplotlib",
+  "tiktoken",
+  "sacrebleu",
+  "torch",
+  "transformers",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
